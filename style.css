@@ -38,3 +38,10 @@ button :hover {
     cursor: pointer;
 }
 
+.parent {
+    margin: 10px;
+    display: grid;
+    
+
+}
+
