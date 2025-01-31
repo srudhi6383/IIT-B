@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animal Details Page</title>
+</head>
+<body>
+    <h2>Edit Details</h2>
+    <form id="edit-content">
+        <label for="species">Species</label>
+        <input type="text" id="species"name="species" placeholder="Species"><br>
+        <label for="name">Name</label>
+        <input type="text" id="name"name="name" placeholder="Name"><br>
+        <label for="size">Size</label>
+        <input type="text" id="size"name="size" placeholder="Size"><br>
+        <label for="location">Location</label>
+        <input type="text" id="location"name="location" placeholder="Location"><br>
+        <label for="image">Image</label>
+        <input type="text" id="image" required name="image" placeholder="Image URL"><br>
+        <button type="submit">Save Changes</button>
+    </form>
+
+    <div id="animal-table"></div>
+    
+</body>
+</html>
+<script src="script.js"></script>

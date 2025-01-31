@@ -1,0 +1,25 @@
+[
+    {
+      "name": "Lion",
+      "species": "Panthera leo",
+      "location": "Africa",
+      "size": 250,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg"
+    },
+    {
+      "name": "Tiger",
+      "species": "Panthera tigris",
+      "location": "Asia",
+      "size": 300,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg"
+    },
+    {
+      "name": "Jaguar",
+      "species": "Panthera onca",
+      "location": "Americas",
+      "size": 150,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Standing_jaguar.jpg"
+    }
+  ]
+  
+  

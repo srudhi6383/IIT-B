@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial, sans-serif';
+}
+
+h2 {
+    color: black;
+    text-align: center;
+
+}
+.table-container {
+    margin: 25px;
+}
+
+#edit-content {
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: min-content;
+}
+
+#edit-content input {
+    height: 15px;
+    padding: 5px;
+}
+
+#edit-content button {
+    color: black;
+    background-color: aliceblue;
+    padding: 15px;
+    font-size: medium;
+}
+
+button :hover {
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+
