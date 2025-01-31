@@ -1,47 +1,130 @@
 body {
-    font-family: 'Arial, sans-serif';
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    text-align: center;
 }
 
 h2 {
-    color: black;
-    text-align: center;
-
-}
-.table-container {
-    margin: 25px;
+    color: #333;
 }
 
-#edit-content {
+form {
+    background: #fff;
+    padding: 20px;
+    max-width: 400px;
     margin: auto;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid white;
-    width: min-content;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-#edit-content input {
-    height: 15px;
-    padding: 5px;
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-#edit-content button {
-    color: black;
-    background-color: aliceblue;
-    padding: 15px;
-    font-size: medium;
+form input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-button :hover {
-    background-color: bisque;
-    color: black;
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+#animal-table {
+    margin-top: 20px;
 }
 
 .parent {
-    margin: 10px;
-    display: grid;
-    
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
+.creature {
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(47, 40, 40, 0.1);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.creature:hover {
+    transform: scale(1.05);
+}
+
+.creature img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.creature h3 {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
+.blue-text {
+    font-style: italic;
+    color: blue;
+}
+
+.creature-actions {
+    margin-top: 10px;
+}
+
+.creature-actions button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.creature-actions button:first-child {
+    background-color: #ffc107;
+    color: black;
+}
+
+.creature-actions button:first-child:hover {
+    background-color: #e0a800;
+}
+
+.creature-actions button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+.creature-actions button:last-child:hover {
+    background-color: #c82333;
+}
